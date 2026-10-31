@@ -1,0 +1,36 @@
+:root {
+  --deep: #061830;
+  --navy: #0a2a4a;
+  --ocean: #0e4d92;
+  --teal: #66e3c4;
+  --cyan: #7ff7e8;
+  --light: #eaf6ff;
+  --muted: #9fc3d9;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC',
+    'Hiragino Sans GB', 'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif;
+  color: var(--light);
+  background-color: var(--deep);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
